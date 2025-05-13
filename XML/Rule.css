@@ -1,32 +1,42 @@
 books {
 	display: block;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-	background-color: #f9f9f9;
-	padding: 20px;
-	margin: 20px;
-	border: 1px solid #ccc;
-	border-radius: 10px;
+	background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+	padding: 25px;
+	margin: 25px;
+	border-radius: 15px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	transition: transform 0.3s ease;
+}
+
+books:hover {
+	transform: scale(1.02);
 }
 
 heading {
 	display: block;
-	font-size: 28px;
+	font-size: 32px;
 	color: #2c3e50;
 	text-align: center;
-	margin-bottom: 30px;
-	font-weight: bold;
+	margin-bottom: 40px;
+	font-weight: 900;
+	text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
 }
 
 book {
 	display: block;
-	background-color: #ffffff;
-	margin: 15px auto;
-	padding: 15px;
-	border: 1px solid #ddd;
-	border-radius: 8px;
-	box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+	background: #ffffffcc;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 	width: 90%;
-	max-width: 600px;
+	max-width: 650px;
+	transition: box-shadow 0.3s ease;
+}
+
+book:hover {
+	box-shadow: 0 12px 24px rgba(0,0,0,0.3);
 }
 
 book > title,
@@ -35,13 +45,15 @@ book > publisher,
 book > edition,
 book > price {
 	display: block;
-	font-size: 16px;
+	font-size: 18px;
 	color: #34495e;
-	margin: 6px 0;
+	margin: 8px 0;
+	font-weight: 600;
 }
 
 book > title {
-	font-weight: bold;
-	color: #1abc9c;
-	font-size: 18px;
+	font-weight: 900;
+	color: #e67e22;
+	font-size: 22px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
