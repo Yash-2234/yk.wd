@@ -2,17 +2,17 @@
 <?xml-stylesheet type="text/css" href="student.css"?>
 <students>
     <student>
-        <id>101</id>
-        <name>John Doe</name>
+        <id>103</id>
+        <name>Yash K</name>
         <age>20</age>
         <department>Computer Science</department>
-        <email>johndoe@example.com</email>
+        <email>YAshk@example.com</email>
     </student>
     <student>
         <id>102</id>
-        <name>Jane Smith</name>
-        <age>21</age>
+        <name>Sanskar</name>
+        <age>20</age>
         <department>Information Technology</department>
-        <email>janesmith@example.com</email>
+        <email>SansK@example.com</email>
     </student>
 </students>
