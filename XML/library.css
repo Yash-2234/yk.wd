@@ -1,45 +1,49 @@
 library {
-    display: block;
-    font-family: 'Segoe UI', sans-serif;
-    background: linear-gradient(to right, #fdfbfb, #ebedee);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  book {
-    display: block;
-    background-color: #ffffffcc;
-    border: 1px solid #bbb;
-    border-left: 5px solid #6c63ff;
-    margin: 15px 0;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
-  }
-  
-  book > * {
-    display: block;
-    margin: 4px 0;
-    color: #333;
-  }
-  
-  title {
-    font-weight: bold;
-    font-size: 1.2em;
-    color: #3f51b5;
-  }
-  
-  author {
-    color: #555;
-  }
-  
-  published_year {
-    font-style: italic;
-    color: #777;
-  }
-  
-  available_copies {
-    color: #2e7d32;
-    font-weight: bold;
-  }
-  
+	display: block;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background: linear-gradient(135deg, #fbc7a4 0%, #f8b500 100%);
+	padding: 25px;
+	margin: 25px;
+	border-radius: 15px;
+	box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+	transition: transform 0.3s ease;
+}
+
+library:hover {
+	transform: scale(1.02);
+}
+
+book {
+	display: block;
+	background: #ffffffcc;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 12px;
+	box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+	width: 90%;
+	max-width: 650px;
+	transition: box-shadow 0.3s ease;
+}
+
+book:hover {
+	box-shadow: 0 12px 24px rgba(0,0,0,0.3);
+}
+
+book > id,
+book > title,
+book > author,
+book > published_year,
+book > available_copies {
+	display: block;
+	font-size: 18px;
+	color: #34495e;
+	margin: 8px 0;
+	font-weight: 600;
+}
+
+book > title {
+	font-weight: 900;
+	color: #d35400;
+	font-size: 22px;
+	text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
+}
