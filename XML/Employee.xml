@@ -3,28 +3,28 @@
 <employees>
     <employee>
         <id>5001</id>
-        <name>Michael Scott</name>
+        <name>Rajesh Kumar</name>
         <position>Manager</position>
         <department>Sales</department>
         <salary>75000</salary>
     </employee>
     <employee>
         <id>5002</id>
-        <name>Pam Beesly</name>
+        <name>Priya Sharma</name>
         <position>Receptionist</position>
         <department>Administration</department>
         <salary>45000</salary>
     </employee>
     <employee>
         <id>5003</id>
-        <name>Jim Halpert</name>
+        <name>Arjun Singh</name>
         <position>Sales Executive</position>
         <department>Sales</department>
         <salary>60000</salary>
     </employee>
     <employee>
         <id>5004</id>
-        <name>Dwight Schrute</name>
+        <name>Anita Patel</name>
         <position>Assistant to the Regional Manager</position>
         <department>Sales</department>
         <salary>58000</salary>
