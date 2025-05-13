@@ -1,0 +1,123 @@
+body {
+    font-family: Georgia, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+header {
+    text-align: center;
+    background-color: #a2e9f6;
+    color: black;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+h2 {
+    color: #444;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+mark {
+    background-color: yellow;
+    font-weight: bold;
+}
+
+section {
+    background-color: #ddd;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+a {
+    background-color: rgb(75, 177, 190);
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+div {
+    margin-bottom: 15px;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #a2e9f6;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+thead {
+    background-color: #333;
+    color: white;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input:focus, select:focus {
+    border-color: #008CBA;
+    outline: none;
+}

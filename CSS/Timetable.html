@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 8</title>
+    <h1>Assignmanet 10</h1>
+    <h2>Name : Yash Kalantre</h2>
+    <h2>Rollno.103</h2>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1,h2{
+            text-align: center;
+        }
+
+        th, td {
+            border: 1px solid #999;
+            padding: 8px;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        td:first-child {
+            font-weight: bold;
+            background-color: #f8f8f8;
+        }
+
+        .break-cell {
+            font-weight: bold;
+            background-color: #f0f0f0;
+        }
+
+        .dept-activity {
+            background-color: #f8f8f8;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Day & Time</th>
+            <th>9.00 to 10.00</th>
+            <th>10.00 to 11.00</th>
+            <th></th>
+            <th>11.15 to 12.15</th>
+            <th>12.15 to 1.15</th>
+            <th></th>
+            <th>2.00 to 3.00</th>
+            <th>3.00 to 4.00</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td colspan="2">
+                S1- DS(SSK)<br>
+                S2-AOGC(KBK)<br>
+                S3- TPMS(PRP)<br>
+                S4-TTL(SPS)<br>
+                S5-TTL(IPT)<br>
+                S6- WD(SSKORE)
+            </td>
+            <td class="break-cell" rowspan="7">B<br>R<br>E<br>A<br>K</td>
+            <td>DS(L)<br>SSK</td>
+            <td>MDM(L)<br></td>
+            <td class="break-cell" rowspan="7">B<br>R<br>E<br>A<br>K</td>
+            <td>AT(L)<br>(KAB)</td>
+            <td>ES(L)<br>PA</td>
+        </tr>
+        <tr>
+            <td>Tuesday</td>
+            <td colspan="2">
+                S1-WD(SSKORE)<br>
+                S3- DS(SSK)<br>
+                S3-AOOC(KBK)<br>
+                S4-TPMS(PRP)<br>
+                S5-TTL<br>
+                S6- TTL 
+            </td>
+            <td>AT(L)<br>KAB</td>
+            <td>DS(L)<br>SSK</td>
+            <td>ES(L)<br>PA</td>
+            <td>WD(L)<br>SSKORE</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td colspan="2">
+                S1-TTL<br>
+                S2-WD(SSKORE)<br>
+                S3-DS(SSK)<br>
+                S4-AOOC(KBK)<br>
+                S5-TPMS(PRP)<br>
+                S6-TTL 
+            </td>
+            <td>AOOC(L)<br>(KBK)</td>
+            <td>MDM(L)</td>
+            <td colspan="2" class="dept-activity">Dept. Activity</td>
+        </tr>
+        <tr>
+            <td>Thursday</td>
+            <td colspan="2">
+                S1-TTL<br>
+                S2-TTL<br>
+                S3-WD(SSKORE)<br>
+                S4-DS(SSK)<br>
+                S5-AOOC(KBK)<br>
+                S6-TPMS(PRP)
+            </td>
+            <td>AOOC(L)<br>(KBK)</td>
+            <td>DS(L)<br>SSKokate</td>
+            <td>AT(L)<br>(KAB)</td>
+            <td>OEC</td>
+        </tr>
+        <tr>
+            <td>Friday</td>
+            <td colspan="2">
+                S1-TPMS(PRP)<br>
+                S2-TTL<br>
+                S3-TTL<br>
+                S4-WD(SSKORE)<br>
+                S5-DS(SSK)<br>
+                S6-AOOC(KBK)
+            </td>
+            <td colspan="2">
+                S1-AOOC(KBK)<br>
+                S2-TPMS(PRP)<br>
+                S3-TTL<br>
+                S4-TTL<br>
+                S5-WD(SSKORE)<br>
+                S6- DS(SSK)
+            </td>
+            <td>TPMS<br>(PRP)</td>
+            <td>OEC</td>
+        </tr>
+        <tr>
+            <td>Saturday</td>
+            <td>LL</td>
+            <td>LL</td>
+            <td>LL<br>"Self"</td>
+            <td>LL<br>"Self"</td>
+            <td colspan="2" class="dept-activity">Dept. Activity</td>
+        </tr>
+    </table>
+</body>
+</html>
